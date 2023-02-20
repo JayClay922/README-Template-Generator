@@ -22,6 +22,39 @@ let licenseBadgeUrl = "";
 
   return `# ${data.title}
 
+ [![License](${licenseBadgeUrl})](${getLicenseLink(data.license)})
+
+ ##Description
+ ${data.description}
+
+ ## Table of Contents
+
+  *[Installation](installation)
+  *[Usage](#usage)
+  *[Contributing](#contributing)
+  *[Tests](#tests)
+  *[License](#license)
+  *[Questions](#questions)
+
+## Installation
+${answers.installation}
+
+## Usage
+${answers.usage}
+
+## Contributing
+${answers.contributing}
+
+## Tests
+${answers.tests}
+
+## License
+This project is licensed under the ${answers.license} license.
+
+## Questions
+If you have any questions, please contact me at ${answers.email}. You can also visit my [GitHub profile](https://github.com/${answers.username}/)
+
+
 `;
 }
 
