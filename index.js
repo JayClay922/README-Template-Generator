@@ -3,6 +3,9 @@ const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+console.log("Hello! Welcome to the README Template Generator!")
+console.log("Answer the following questions to generate a high quality README  for your project.")
+
 // array of questions for user
 const questions = [
     {
