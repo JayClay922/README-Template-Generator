@@ -26,7 +26,7 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "Provide instructions and eamples for usage:"
+        message: "Provide instructions and examples for usage:"
     },
     {
         type: "input",
