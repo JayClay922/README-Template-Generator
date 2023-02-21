@@ -42,12 +42,12 @@ function getLicenseLink(license) {
 
  ## Table of Contents
 
-  *[Installation](installation)
-  *[Usage](#usage)
-  *[Contributing](#contributing)
-  *[Tests](#tests)
-  *[License](#license)
-  *[Questions](#questions)
+* [Installation](installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [License](#license)
+* [Questions](#questions)
 
 ## Installation
 ${data.installation}
