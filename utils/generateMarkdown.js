@@ -37,7 +37,7 @@ function getLicenseLink(license) {
 
  [![License](${licenseBadgeUrl})](${getLicenseLink(data.license)})
 
- ##Description
+ ## Description
  ${data.description}
 
  ## Table of Contents
