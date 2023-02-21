@@ -55,8 +55,7 @@ The acceptance criteria for this project includes:
 
 5. A sample of the README file generated, both in the markdown format and the normal format.
  ![sampleREADME-markdwon](./screenshots/sampleREADME-markdown.png)
-
-  ![sampleREADME](./screenshots/sampleREADME.png)
+![sampleREADME](./screenshots/sampleREADME.png)
 
 ## License
 MIT License
