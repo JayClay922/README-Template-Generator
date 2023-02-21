@@ -50,22 +50,22 @@ function getLicenseLink(license) {
   *[Questions](#questions)
 
 ## Installation
-${answers.installation}
+${data.installation}
 
 ## Usage
-${answers.usage}
+${data.usage}
 
 ## Contributing
-${answers.contributing}
+${data.contributing}
 
 ## Tests
-${answers.tests}
+${data.tests}
 
 ## License
-This project is licensed under the ${answers.license} license.
+This project is licensed under the ${data.license} license.
 
 ## Questions
-If you have any questions, please contact me at ${answers.email}. You can also visit my [GitHub profile](https://github.com/${answers.username}/)
+If you have any questions, please contact me at ${data.email}. You can also visit my [GitHub profile](https://github.com/${data.username}/)
 
 
 `;
