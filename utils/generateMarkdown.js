@@ -20,6 +20,19 @@ let licenseBadgeUrl = "";
       licenseBadgeUrl = "";
 };
 
+function getLicenseLink(license) {
+  if (license === "MIT") {
+    return "https://opensource.org/licenses/MIT";
+  } else if (license === "Apache 2.0") {
+    return "https://opensource.org/licenses/Apache-2.0";
+  } else if (license === "GPL 3.0") {
+    return "https://www.gnu.org/licenses/gpl-3.0";
+  } else {
+    return "";
+  }
+}
+
+
   return `# ${data.title}
 
  [![License](${licenseBadgeUrl})](${getLicenseLink(data.license)})
